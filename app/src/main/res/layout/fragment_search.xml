@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingHorizontal="@dimen/margin_main"
+    android:paddingTop="@dimen/padding_main_top"
+    android:background="@color/main_blue">
+
+    <TextView
+        android:id="@+id/title_search"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/search_title"
+        android:textSize="@dimen/search_text_size_title"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/search"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="@dimen/margin_main"
+        android:background="@drawable/bgr_search"
+        android:imeOptions="actionSearch"
+        android:inputType="text"
+        android:hint="@string/search_placeholder"
+        android:textColorHint="@color/violet_light"
+        android:maxLines="1"
+        android:paddingVertical="@dimen/search_padding_edit_text_vert"
+        android:textColor="@color/white"
+        android:textCursorDrawable="@drawable/cursor_search"
+        android:textSize="@dimen/search_text_size_search"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toBottomOf="@id/search_image"
+        app:layout_constraintEnd_toStartOf="@id/search_image"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@id/search_image" />
+
+    <ImageView
+        android:id="@+id/search_image"
+        android:layout_width="@dimen/size_icon"
+        android:layout_height="@dimen/size_icon"
+        android:layout_marginTop="@dimen/margin_main"
+        android:padding="@dimen/padding_icon_main"
+        android:src="@drawable/ic_search"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@id/search"
+        app:layout_constraintTop_toBottomOf="@id/title_search" />
+
+    <ImageView
+        android:id="@+id/loader"
+        android:layout_width="@dimen/size_loader"
+        android:layout_height="@dimen/size_loader"
+        android:layout_marginTop="@dimen/search_margin_loader_top"
+        android:src="@drawable/loader_animation"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/search_image" />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/list_city"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/margin_main"
+        android:isScrollContainer="true"
+        app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/search_image"
+        tools:listitem="@layout/list_item_search" />
+
+    <TextView
+        android:id="@+id/error_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingHorizontal="@dimen/search_padding_error_message"
+        android:text="@string/search_error_message"
+        android:textAlignment="center"
+        android:textSize="@dimen/search_text_size_error_message"
+        android:visibility="gone"
+        app:layout_constraintBottom_toTopOf="@id/error_image"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/search_image"
+        app:layout_constraintVertical_chainStyle="packed" />
+
+    <ImageView
+        android:id="@+id/error_image"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/margin_main"
+        android:src="@drawable/ic_broom"
+        android:visibility="gone"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/error_text" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

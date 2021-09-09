@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="WeatherSubtitle">
+        <item name="android:textColor">@color/white_light</item>
+        <item name="android:textSize">@dimen/forecast_text_size_subtitles</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginStart">@dimen/margin_main</item>
+    </style>
+
+    <style name="WeatherInfo">
+        <item name="android:textSize">@dimen/forecast_text_size_info</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:paddingVertical">@dimen/weather_info_padding_vert</item>
+        <item name="android:layout_marginStart">@dimen/margin_main</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+</resources>

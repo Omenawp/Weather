@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <dimen name="margin_main">20dp</dimen>
+    <dimen name="search_margin_loader_top">10dp</dimen>
+    <dimen name="weather_margin_add_icon_end">20dp</dimen>
+    <dimen name="weather_margin_error_pic_end">20dp</dimen>
+    <dimen name="forecast_day_margin_vert">10dp</dimen>
+    <dimen name="forecast_day_margin_data_start">10dp</dimen>
+    <dimen name="forecast_day_margin_about_start">10dp</dimen>
+    <dimen name="forecast_hour_margin_temp_top">10dp</dimen>
+    <dimen name="forecast_hour_margin_icon_top">6dp</dimen>
+    <dimen name="forecast_hour_margin_wind_top">10dp</dimen>
+    <dimen name="search_item_margin_top">20dp</dimen>
+    <dimen name="search_item_margin_temp_end">20dp</dimen>
+    <dimen name="weather_city_margin_barrier">40dp</dimen>
+    <dimen name="weather_city_margin_res_link">10dp</dimen>
+    <dimen name="weather_city_margin_res_top">40dp</dimen>
+
+    <dimen name="padding_main_top">40dp</dimen>
+    <dimen name="padding_icon_main">10dp</dimen>
+    <dimen name="search_padding_error_message">40dp</dimen>
+    <dimen name="search_padding_edit_text_vert">6dp</dimen>
+    <dimen name="search_item_padding_vert">10dp</dimen>
+    <dimen name="weather_city_hours_padding_bottom">40dp</dimen>
+    <dimen name="weather_info_padding_vert">10dp</dimen>
+
+    <dimen name="forecast_margin_temp_top">80dp</dimen>
+    <dimen name="forecast_margin_description_top">10dp</dimen>
+    <dimen name="forecast_margin_daily_top">40dp</dimen>
+    <dimen name="forecast_margin_hourly_top">40dp</dimen>
+
+    <dimen name="forecast_text_size_city">16sp</dimen>
+    <dimen name="forecast_text_size_temp">80sp</dimen>
+    <dimen name="forecast_text_size_description">18sp</dimen>
+    <dimen name="forecast_text_size_degree">40sp</dimen>
+    <dimen name="forecast_text_size_subtitles">14sp</dimen>
+    <dimen name="forecast_text_size_info">16sp</dimen>
+    <dimen name="forecast_hour_text_size_wind">10sp</dimen>
+
+    <dimen name="search_text_size_title">18sp</dimen>
+    <dimen name="search_text_size_city">16sp</dimen>
+    <dimen name="search_text_size_temp">28sp</dimen>
+    <dimen name="search_text_size_error_message">12sp</dimen>
+    <dimen name="search_text_size_search">14sp</dimen>
+    <dimen name="weather_city_text_size_res">10sp</dimen>
+    <dimen name="weather_city_text_size_res_link">12sp</dimen>
+
+    <dimen name="stroke_width_cursor">2dp</dimen>
+
+    <dimen name="size_icon">40dp</dimen>
+    <dimen name="size_loader">30dp</dimen>
+    <dimen name="forecast_day_size_weather_icon">30dp</dimen>
+    <dimen name="forecast_hour_weather_icon">30dp</dimen>
+</resources>

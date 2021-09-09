@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">Weather</string>
+
+    <string name="settings_title">Настройки</string>
+    <string name="search_title">Управление городами</string>
+
+    <string name="search_error_message">Ой, мы не можем найти такой город. Попробуй ввести координаты.
+        Например: 64.12652, -21.81744</string>
+    <string name="search_no_data">Пока еще не добавлен ни один город</string>
+    <string name="search_placeholder">Введите местоположение</string>
+
+    <string name="ask_permission">Приложенению требуется доступ к вашей геолокации,
+        но вы можете самостоятельно выбрать город, нажав на плюсик вверху экрана.
+        Если вы хотите разрешить доступ, пожалуйста, перезапустите приложение или измените разрешения
+        в настройках телефона. </string>
+
+    <string name="sunrise">Восход</string>
+    <string name="feel">Ощущается</string>
+    <string name="rain">Вероятность дождя</string>
+    <string name="wind">Скорость ветра</string>
+    <string name="sunset">Закат</string>
+    <string name="humidity">Влажность</string>
+    <string name="pressure">Давление</string>
+    <string name="uvIndex">Уф-индекс</string>
+    <string name="resource_info">Данные предоставлены</string>
+    <string name="resource_link">openweathermap.org</string>
+</resources>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_500">#FF6200EE</color>
+    <color name="purple_700">#FF3700B3</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="white_light">#BFFFFFFF</color>
+    <color name="white_tr">#54FFFFFF</color>
+    <color name="main_blue">#0E1835</color>
+    <color name="violet">#B8B3F8</color>
+    <color name="violet_light">#56D7D5FF</color>
+    <color name="grey">#8C8C8C</color>
+
+    <color name="night_top">#081333</color>
+    <color name="night_bottom">#112255</color>
+    <color name="day_top">#0859FF</color>
+    <color name="day_bottom">#3678FD</color>
+    <color name="cloudy_day_top">#5070C3</color>
+    <color name="cloudy_day_bottom">#8D9FCA</color>
+    <color name="cloudy_night_top">#21283E</color>
+    <color name="cloudy_night_bottom">#3A4355</color>
+    <color name="rain_day_top">#717A8C</color>
+    <color name="rain_day_bottom">#BCC4D1</color>
+    <color name="storm_day_top">#514A70</color>
+    <color name="storm_day_bottom">#8086A6</color>
+    <color name="storm_night_top">#0B1422</color>
+    <color name="storm_night_bottom">#1D2C39</color>
+</resources>
